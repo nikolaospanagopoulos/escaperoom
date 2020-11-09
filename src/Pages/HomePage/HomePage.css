@@ -1,0 +1,52 @@
+@font-face{
+    font-family: edge of galaxy;
+    src: url('../../fonts/Xxix-0Wgvz.ttf');
+}
+.home{
+    z-index: 100;
+}
+
+.cube-animation{
+    z-index: 2;
+    position: relative;
+    right: 410px;
+    top: -150px;
+    
+}
+
+
+
+.title{
+    font-family: edge of galaxy;
+
+    text-transform: uppercase;
+
+    position: relative;
+    text-align: right;
+    letter-spacing: 0.2rem;
+    font-size: 4rem;
+    top: 40vh;
+    z-index: 20;
+     -webkit-text-stroke: 0.5px white;
+    -webkit-text-fill-color:  #66ffd9;
+    cursor: none;
+    user-select: none;
+    padding-right: 1rem;
+   
+    
+    
+
+}
+
+@media(max-width:768px){
+.title{
+    font-size: 3rem;
+    text-align: center;
+    top: 30vh;
+    padding: 0;
+}
+.cube-animation{
+    display: none;
+}
+
+}
