@@ -7,23 +7,10 @@ import Background from "./components/background/background";
 
 function App() {
   return (
-      
-     
-      <div >
- 
-        
-        <HomePage />
-        <Background/>
-        
-      
-        
-        
-      </div>
-      
-
-   
- 
-    
+    <div>
+      <HomePage />
+      <Background />
+    </div>
   );
 }
 

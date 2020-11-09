@@ -2,7 +2,10 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import RightNav from "./RightNav";
 
+// USING STYLED COMPONENTS LIBRARY
+
 const StyledBurger = styled.div`
+
 
 cursor:pointer;
 

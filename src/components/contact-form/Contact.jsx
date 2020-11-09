@@ -2,8 +2,12 @@ import React from 'react';
 import './Contact.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
+
+
 class Contact extends React.Component{
     state={showForm:false}
+
+// I CREATE A FUNCTIONAL COMPONENT IN MY CLASS TO MAKE IT APPEAR ON STATE CHANGE
 
     showForm=()=>{
         return(

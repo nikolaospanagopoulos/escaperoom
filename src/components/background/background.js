@@ -2,6 +2,9 @@ import React from "react";
 import "./background.css";
 import Particles from "react-particles-js";
 
+//I MAKE IT SO THAT THE PARTICLES FOLLOW AN ASCENDING COURSE BUT NO ORDINARY COURSE
+
+
 function Background() {
   return (
     <div className="Background">

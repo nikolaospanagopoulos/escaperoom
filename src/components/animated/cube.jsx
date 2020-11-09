@@ -1,6 +1,8 @@
 import React from 'react';
 import './cube.css'
 
+//THE CUBE HERE IS THE CUBE ANIMATED IN THE WEBSITE
+
 const Cube =()=>{
     return(
         <div id="mainDiv">
