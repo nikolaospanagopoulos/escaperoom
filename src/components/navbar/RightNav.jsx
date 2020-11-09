@@ -50,6 +50,7 @@ li {
 @media(max-width:768px){
 
     width:50vw;
+    height:100%
   
 }
 `
